@@ -7,10 +7,14 @@
   --color-background: #1A1A2E;
   --color-primary: #A35CF0;
   --color-accent: #FCFF6F;
-  --color-text: #D7D7D7;
+  --color-text: #FFFFFF;
   --color-text-low-contrast: #9B9B9B;
   --color-container: #29293E;
   --color-text-ultra-low-contrast: #686868;
   --font-sora: "Sora";
   --font-space-grotesk: "Space Grotesk";
+}
+
+html {
+  background-color: var(--color-background);
 }
