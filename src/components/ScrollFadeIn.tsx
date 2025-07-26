@@ -1,7 +1,12 @@
 import React from "react";
 import { useEffect, useRef } from "react";
 
-export default function ScrollFadeIn({ children }: { children: React.ReactNode }) {
+type ScrollFadeInProps = {
+  children: React.ReactNode;
+  className?: string;
+}
+
+export default function ScrollFadeIn({ children, className }: ScrollFadeInProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -10,9 +15,7 @@ export default function ScrollFadeIn({ children }: { children: React.ReactNode }
         if (entry.isIntersecting && ref.current) {
           ref.current.classList.add("animate-fade-in");
         } else {
-          if (ref.current) {
-            ref.current.classList.remove("animate-fade-in");
-          }
+          ref.current.classList.remove("animate-fade-in");
         }
       },
       { threshold: 0.5 }
@@ -22,5 +25,5 @@ export default function ScrollFadeIn({ children }: { children: React.ReactNode }
 
   }, []);
 
-  return <div ref={ref}>{children}</div>;
+  return <div ref={ref} className={className}>{children}</div>;
 }
