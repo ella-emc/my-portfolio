@@ -6,13 +6,11 @@ const HeroSection = () => {
       <p className='text-accent font-space-grotesk text-base lg:text-xl'>Hi, I'm Ella</p>
       <TypeAnimation 
         sequence={[
-          'A web developer',
-          1500,
-          'A mobile developer',
+          'A web and mobile developer',
           1500,
           'A full-stack developer',
           1500,
-          'An AI and data science enthusiast',
+          'A data science enthusiast',
           1500
         ]}
         wrapper="span"
