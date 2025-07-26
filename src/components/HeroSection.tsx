@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section className='flex flex-col items-center justify-center py-[100px] px-16 lg:py-60 lg:px-80 gap-y-3 lg:gap-y-6'>
+    <section className='flex flex-col items-center justify-center gap-y-3 lg:gap-y-6'>
       <p className='text-accent font-space-grotesk text-base lg:text-xl'>Hi, I'm Ella</p>
       <TypeAnimation 
         sequence={[
