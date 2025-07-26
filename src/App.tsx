@@ -1,19 +1,12 @@
-import { useRef } from "react"
 import HeroSection from "./components/HeroSection"
-import { useIsVisible } from "./hooks/useIsVisible";
+import ScrollFadeIn from "./components/ScrollFadeIn";
 
 function App() {
-const ref1 = useRef<HTMLDivElement>(null);
-  const isHeroSectionVisible = useIsVisible(ref1);
-
   return (
     <>
-      <div 
-        ref={ref1} 
-        className={`transition-opacity ease-in duration-700 ${isHeroSectionVisible ? "opacity-100" : "opacity-0"}`}
-      >
+      <ScrollFadeIn className="py-[100px] px-16 lg:py-60 lg:px-80">
         <HeroSection />
-      </div>
+      </ScrollFadeIn>
     </>
   )
 }
