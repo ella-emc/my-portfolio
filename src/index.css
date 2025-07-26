@@ -13,6 +13,17 @@
   --color-text-ultra-low-contrast: #686868;
   --font-sora: "Sora";
   --font-space-grotesk: "Space Grotesk";
+
+  --animate-fade-in: fade-in 1s ease-out forwards;
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 100;
+    }
+  }
 }
 
 html {
