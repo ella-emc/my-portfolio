@@ -29,3 +29,9 @@
 html {
   background-color: var(--color-background);
 }
+
+@layer utilities {
+  .glassmorph {
+    @apply bg-gray-600/40 rounded-2xl bg-clip-padding backdrop-filter backdrop-blur-md border border-gray-500
+  }
+}
