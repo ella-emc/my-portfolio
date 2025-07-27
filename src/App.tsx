@@ -7,19 +7,19 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <section className="flex justify-center">
+      <section className="flex justify-end md:justify-center">
         <Navbar />
       </section>
 
-      <ScrollFadeIn className="py-[100px] px-16 lg:py-60 lg:px-80">
+      <ScrollFadeIn className="py-[100px] px-16 lg:py-40 lg:px-80">
         <HeroSection />
       </ScrollFadeIn>
 
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-60 lg:px-80">
+      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <AboutSection />
       </ScrollFadeIn>
 
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-60 lg:px-80">
+      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <ExperienceSection />
       </ScrollFadeIn>
     </>
