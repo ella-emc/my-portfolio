@@ -4,7 +4,7 @@ import image from "../assets/headshot.png";
 const AboutSection = () => {
   return (
     <section>
-      <h2 className='font-space-grotesk text-primary text-center text-base lg:text-2xl'>About</h2>
+      <h2 id="about" className='font-space-grotesk text-primary text-center text-base lg:text-2xl'>About</h2>
 
       {/* Headshot and about */}
       <div className='flex flex-row flex-wrap gap-3.5 lg:gap-6'>
