@@ -1,0 +1,37 @@
+[
+  {
+    "start_year": 2024,
+    "end_year": null,
+    "job_title": "Frontend Developer",
+    "company": "Roompal",
+    "technologies": [
+      "Flutter",
+      "Figma"
+    ],
+    "description": "Designed and built components for the web version of Roompal's admin page. Worked closely with the tech lead, project lead, and fellow frontend developers during the development process."
+  },
+  {
+    "start_year": 2024,
+    "end_year": 2025,
+    "job_title": "Frontend Developer",
+    "company": "San Jacinto Local Waterworks Unit",
+    "technologies": [
+      "React",
+      "React Native",
+      "Tailwind CSS",
+      "Typescript"
+    ],
+    "description": "Developed a mobile and web application system for waterworks management using React-Typescript"
+  },
+  {
+    "start_year": 2024,
+    "end_year": 2025,
+    "job_title": "AI Developer",
+    "company":"San Jacinto Local Waterworks Unit",
+    "technologies": [
+      "Python",
+      "Jupyter"
+    ],
+    "description": "Developed a forecasting and anomaly detection model for water consumption"
+  }
+]
