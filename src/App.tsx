@@ -3,6 +3,7 @@ import HeroSection from "./sections/HeroSection"
 import ScrollFadeIn from "./components/ScrollFadeIn";
 import ExperienceSection from "./sections/ExperienceSection";
 import Navbar from "./components/Navbar";
+import ProjectsSection from "./sections/ProjectsSection";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
 
       <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <ExperienceSection />
+      </ScrollFadeIn>
+
+      <ScrollFadeIn className="py=[100px] px-8 lg:py-40 lg:px-80">
+        <ProjectsSection />
       </ScrollFadeIn>
     </>
   )
