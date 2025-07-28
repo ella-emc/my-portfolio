@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Stellr - where astrophiles orbit",
+    "link": "https://github.com/ella-emc/stellr",
+    "image_link": "",
+    "technologies": [
+      "React Native",
+      "Firebase"
+    ],
+    "description": "A mobile application where space enthusiasts can view space-related news, publish and join space-related community events such as stargazing"
+  },
+  {
+    "title": "Totally Geek",
+    "link": "https://dev-totally-geek.pantheonsite.io/",
+    "image_link": "",
+    "technologies": [
+      "Wordpress",
+      "WooCommerce"
+    ],
+    "description": "An e-commerce website for comic books, graphic novels, and action figures built with Wordpress and WooCommerce. Designed and developed in compliance for an academic requirement."
+  },
+  {
+    "title": "iEnroll",
+    "link": "https://github.com/marcusAlmo/iEnroll",
+    "image_link": "",
+    "technologies": [
+      "React",
+      "Tailwind CSS"
+    ],
+    "description": "An enrollment management system for high school and elementary schools developed in compliance for an academic requirement. Served as the project's lead front-end developer."
+  },
+  {
+    "title": "Reverie",
+    "link": "",
+    "image_link": "",
+    "technologies": [
+      "Flutter",
+      "Firebase"
+    ],
+    "description": "A mobile application to record your dreams. Integrated with a search functionality that searches the internet for the meaning of your dreams."
+  },
+  {
+    "title": "Consumption Dashboard",
+    "link": "",
+    "image_link": "",
+    "technologies": [
+      "Vue",
+      "Python"
+    ],
+    "description": "A website that displays consumption predictions in an interactive dashboard with colorful graphs and charts. Utilized machine learning model for the prediction."
+  }
+]
