@@ -2,7 +2,7 @@
   {
     "title": "Stellr - where astrophiles orbit",
     "link": "https://github.com/ella-emc/stellr",
-    "image_link": "",
+    "image_link": "/stellr-mockup.png",
     "technologies": [
       "React Native",
       "Firebase"
@@ -12,7 +12,7 @@
   {
     "title": "Totally Geek",
     "link": "https://dev-totally-geek.pantheonsite.io/",
-    "image_link": "",
+    "image_link": "/totally-geek-mockup.png",
     "technologies": [
       "Wordpress",
       "WooCommerce"
@@ -22,7 +22,7 @@
   {
     "title": "iEnroll",
     "link": "https://github.com/marcusAlmo/iEnroll",
-    "image_link": "",
+    "image_link": "/iEnroll-mockup.jpg",
     "technologies": [
       "React",
       "Tailwind CSS"
