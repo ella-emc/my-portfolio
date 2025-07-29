@@ -10,8 +10,8 @@ const ProjectsSection = () => {
       <div className="grid grid-cols-12 gap-6">
         {projects.map((project, index) => (
           <div key={index} className='col-span-6 flex flex-col gap-y-6'>
-            <div className='glassmorph w-full rounded-2xl'>
-              sup
+            <div className='glassmorph max-w-full max-h-64 overflow-hidden rounded-2xl'>
+              <img src={project.image_link} className='w-full h-full object-cover' />
             </div>
             <div className='space-y-4'>
               <p className='text-text font-space-grotesk font-medium text-base lg:text-xl'>{project.title}</p>
