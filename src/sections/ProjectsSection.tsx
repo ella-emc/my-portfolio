@@ -10,8 +10,15 @@ const ProjectsSection = () => {
       <div className="grid grid-cols-12 gap-6">
         {projects.map((project, index) => (
           <div key={index} className='col-span-6 flex flex-col gap-y-6'>
-            <div className='glassmorph max-w-full max-h-64 overflow-hidden rounded-2xl'>
-              <img src={project.image_link} className='w-full h-full object-cover' />
+            <div className="relative max-w-full max-h-64 overflow-hidden rounded-2xl group">
+              <a href={project.link} target="_blank">
+                <img
+                  src={project.image_link}
+                
+                  className="w-full h-full object-cover transform transition-transform duration-500 ease-in-out group-hover:scale-110"
+                />
+              </a>
+              <div className="absolute inset-0 bg-primary opacity-40 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
             </div>
             <div className='space-y-4'>
               <p className='text-text font-space-grotesk font-medium text-base lg:text-xl'>{project.title}</p>
