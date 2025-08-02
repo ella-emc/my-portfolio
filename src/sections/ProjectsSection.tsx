@@ -18,7 +18,7 @@ const ProjectsSection = () => {
                   className="w-full h-full object-cover transform transition-transform duration-500 ease-in-out group-hover:scale-110"
                 />
               </a>
-              <div className="absolute inset-0 bg-primary opacity-40 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-purple-700 opacity-40 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
             </div>
             <div className='space-y-4'>
               <p className='text-text font-space-grotesk font-medium text-base lg:text-xl'>{project.title}</p>
