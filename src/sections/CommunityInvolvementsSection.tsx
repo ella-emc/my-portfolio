@@ -3,7 +3,7 @@ import involvements from "../data/involvements.json";
 const CommunityInvolvementsSection = () => {
   return (
     <section>
-      <h2 id="projects" className='font-space-grotesk text-primary text-center text-base lg:text-2xl mb-8 lg:mb-16'>Community Involvements</h2>
+      <h2 id="involvements" className='font-space-grotesk text-primary text-center text-base lg:text-2xl mb-8 lg:mb-16'>Community Involvements</h2>
     
       <div className="grid grid-cols-12 gap-6">
         {involvements.map((involvement, index) => (
