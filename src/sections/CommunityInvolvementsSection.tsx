@@ -11,7 +11,6 @@ const CommunityInvolvementsSection = () => {
             <div className="relative max-w-full max-h-64 overflow-hidden rounded-2xl group">
               <img
                 src={involvement.image_link}
-              
                 className="w-full h-full object-cover transform transition-transform duration-500 ease-in-out group-hover:scale-110"
               />
               <div className="absolute inset-0 bg-purple-700 opacity-40 group-hover:opacity-0 transition-opacity duration-500 z-10 pointer-events-none"></div>
