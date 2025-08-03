@@ -1,0 +1,22 @@
+[
+  {
+    "platform": "Instagram",
+    "icon_link": "/icons/instagram.png",
+    "link": "https://www.instagram.com/ellala.dev"
+  },
+  {
+    "platform": "Github",
+    "icon_link": "/icons/github.png",
+    "link": "https://www.github.com/ella-emc"
+  },
+  {
+    "platform": "LinkedIn",
+    "icon_link": "/icons/linkedin.png",
+    "link": "https://www.linkedin.com/in/ella-mae-ca%C3%B1averal/"
+  },
+  {
+    "platform": "Medium",
+    "icon_link": "/icons/medium.png",
+    "link": "https://medium.com/@ella-emc"
+  }
+]
