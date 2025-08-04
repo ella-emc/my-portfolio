@@ -1,4 +1,3 @@
-import React from 'react';
 import image from "../assets/headshot.png";
 
 const AboutSection = () => {
@@ -8,16 +7,16 @@ const AboutSection = () => {
 
       <div className="space-y-6">
         <div className='md:grid md:grid-cols-12 md:grid-rows-5 md:gap-6 space-y-6'>
-          <div className='glassmorph rounded-2xl pt-6 col-span-5 row-span-5 flex flex-col justify-between md:mb-0'>
+          <div className='glassmorph rounded-2xl pt-6 col-span-5 row-span-5 flex flex-col justify-between md:mb-0 hover-zoom'>
             <h3 className='font-bold font-sora text-accent text-2xl lg:text-3xl pl-6'>More than just a developer</h3>
             <img src={image} className='rounded-b-2xl' />
           </div>
-          <div className='glassmorph rounded-2xl p-6 flex items-center justify-center col-span-7 row-span-2 md:mb-0'>
+          <div className='glassmorph rounded-2xl p-6 flex items-center justify-center col-span-7 row-span-2 md:mb-0 hover-zoom'>
             <p className='font-space-grotesk text-base text-text-low-contrast'>
               I'm <span className="text-text">Ella Mae Cañaveral</span>, a multifaceted developer with a knack for design, drawing, and language learning.
             </p>
           </div>
-          <div className='glassmorph rounded-2xl p-6 flex items-center justify-center col-span-7 row-span-3'>
+          <div className='glassmorph rounded-2xl p-6 flex items-center justify-center col-span-7 row-span-3 hover-zoom'>
             <p className='font-space-grotesk text-base text-text-low-contrast'>
               My developer journey started at 14 when I was introduced to HTML and CSS. I'd aspired to become a web designer, but it wasn't until my freshman year of university that I aspired to become a software engineer.
               I currently work at Uppend, a start-up I co-founded, as a front-end developer and COO.
@@ -26,7 +25,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className='md:grid md:grid-cols-12 gap-6 space-y-6'>
-          <div className='glassmorph col-span-7 rounded-2xl p-6 flex flex-col gap-y-6 md:mb-0'>
+          <div className='glassmorph col-span-7 rounded-2xl p-6 flex flex-col gap-y-6 md:mb-0 hover-zoom'>
             <p className='font-space-grotesk text-base text-text-low-contrast'>
               I have been active in the developer community since my freshman year.
               Since then, I've been giving back to the community through <span className="text-text">my talks</span>.
@@ -38,7 +37,7 @@ const AboutSection = () => {
               <p className='font-space-grotesk text-accent text-end text-sm'>See my journey</p>
             </div>
           </div>
-          <div className='glassmorph col-span-5 rounded-2xl p-6 flex flex-col gap-y-6'>
+          <div className='glassmorph col-span-5 rounded-2xl p-6 flex flex-col gap-y-6 hover-zoom'>
             <p className='font-space-grotesk text-base text-text-low-contrast'>
               I love to <span className="text-text">draw portraits</span> in my free time. Graphite, charcoal, and color pencils are my playground!
             </p>
