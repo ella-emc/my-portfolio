@@ -1,4 +1,4 @@
-import image from "../assets/headshot.png";
+import image from "/headshot.png";
 
 const AboutSection = () => {
   return (
