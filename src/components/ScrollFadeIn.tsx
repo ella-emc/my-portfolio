@@ -10,20 +10,29 @@ export default function ScrollFadeIn({ children, className }: ScrollFadeInProps)
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const currentElement = ref.current; // store in case ref changes
+
+    if (!currentElement) return;
+
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting && ref.current) {
-          ref.current.classList.add("animate-fade-in");
+        if (entry.isIntersecting) {
+          currentElement.classList.add("animate-fade-in");
         } else {
-          ref.current.classList.remove("animate-fade-in");
+          currentElement.classList.remove("animate-fade-in");
         }
       },
       { threshold: 0.5 }
     );
-    if (ref.current) observer.observe(ref.current);
-    return () => observer.disconnect();
 
+    observer.observe(currentElement);
+
+    return () => {
+      observer.unobserve(currentElement);
+      observer.disconnect();
+    };
   }, []);
+
 
   return <div ref={ref} className={className}>{children}</div>;
 }
