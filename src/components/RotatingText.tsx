@@ -12,7 +12,7 @@ import {
   type Transition,
   type VariantLabels,
   type Target,
-  type animationControls,
+  type LegacyAnimationControls,
   type TargetAndTransition,
 } from "framer-motion";
 
@@ -35,7 +35,7 @@ export interface RotatingTextProps
   texts: string[];
   transition?: Transition;
   initial?: boolean | Target | VariantLabels;
-  animate?: boolean | VariantLabels | typeof animationControls | TargetAndTransition;
+  animate?: boolean | VariantLabels | LegacyAnimationControls | TargetAndTransition;
   exit?: Target | VariantLabels;
   animatePresenceMode?: "sync" | "wait";
   animatePresenceInitial?: boolean;
@@ -238,6 +238,7 @@ const RotatingText = forwardRef<RotatingTextRef, RotatingTextProps>(
                     <motion.span
                       key={charIndex}
                       initial={initial}
+                      // @ts-ignore
                       animate={animate}
                       exit={exit}
                       transition={{
