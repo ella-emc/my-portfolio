@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const HeroSection = () => {
   return (
-    <section className='flex flex-col items-center justify-center gap-y-3 lg:gap-y-6'>
+    <section className='h-screen flex flex-col items-center justify-center px-12 lg:px-56 gap-y-3 lg:gap-y-6'>
       <p className='text-accent font-space-grotesk text-base lg:text-lg'>👋 Hi, I'm Ella</p>
       <TypeAnimation 
         sequence={[
@@ -33,9 +33,11 @@ const HeroSection = () => {
         web and mobile applications. I'm actively involved in my university's tech startup community as a <span className="font-bold text-text">front-end developer</span>,
         and developer student community as a <span className="font-bold text-text">former campus lead</span>.
       </p>
-      <button className="mt-6 bg-primary font-sora text-text rounded-2xl py-3 px-16 text-base">
-        Contact me
-      </button>
+      <div className="card-wrapper flex items-center justify-center w-42 cosmic-glow">
+        <button className="card-content font-sora text-text rounded-2xl py-3 px-8 text-base">
+          Contact me
+        </button>
+      </div>
     </section>
   )
 }

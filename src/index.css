@@ -15,15 +15,22 @@
   --font-space-grotesk: "Space Grotesk";
 
   --animate-fade-in: fade-in 1s ease-out forwards;
+  --animate-border-spin: border-spin 4s linear infinite;
+}
 
-  @keyframes fade-in {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 100;
-    }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes border-spin {
+  100% {
+    transform: rotate(-360deg)
+  } 
 }
 
 html {
@@ -38,4 +45,26 @@ html {
   .hover-zoom {
     @apply transform hover:text-accent transition duration-500 hover:scale-110
   }
+
+  .card-wrapper {
+    @apply relative overflow-hidden bg-gray-600/40 bg-clip-padding backdrop-filter backdrop-blur-2xl rounded-2xl border border-gray-500
+  }
+
+  .card-wrapper::before {
+    background: conic-gradient(
+      #A35CF0 0deg,
+      #FCFF6F 180deg,
+      transparent 80deg
+    );
+    @apply absolute h-[400%] w-[400%] left-[-150%] top-[-150%] content-[''] animate-border-spin
+  }
+
+  .card-content {
+    @apply relative w-[calc(100%-2.5px)] h-[calc(100%-2.5px)] bg-background rounded-2xl
+  }
+
+  .cosmic-glow {
+    @apply shadow-[0px_0px_40px_0px_rgba(252,_255,_255,_0.1)]
+  }
+
 }
