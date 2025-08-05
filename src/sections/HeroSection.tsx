@@ -1,4 +1,3 @@
-import { TypeAnimation } from "react-type-animation";
 import RotatingText from "../components/RotatingText";
 
 const HeroSection = () => {
