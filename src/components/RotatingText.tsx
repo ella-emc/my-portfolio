@@ -9,10 +9,10 @@ import React, {
 import {
   motion,
   AnimatePresence,
-  // The Transition import was causing the error.
+  Transition,
   type VariantLabels,
   type Target,
-  // type AnimationControls,
+  type AnimationControls,
   type TargetAndTransition,
 } from "framer-motion";
 
