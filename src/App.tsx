@@ -1,6 +1,5 @@
 import AboutSection from "./sections/AboutSection";
 import HeroSection from "./sections/HeroSection"
-import ScrollFadeIn from "./components/ScrollFadeIn";
 import ExperienceSection from "./sections/ExperienceSection";
 import Navbar from "./components/Navbar";
 import ProjectsSection from "./sections/ProjectsSection";
