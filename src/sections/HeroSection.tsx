@@ -37,7 +37,7 @@ const HeroSection = () => {
         web and mobile applications. I'm actively involved in my university's tech startup community as a <span className="font-bold text-text">front-end developer</span>,
         and developer student community as a <span className="font-bold text-text">former campus lead</span>.
       </p>
-      <div className="card-wrapper flex items-center justify-center w-36 cosmic-glow">
+      <div className="card-wrapper flex items-center justify-center w-36 cosmic-glow hover-zoom">
         <button className="card-content font-sora text-text rounded-2xl py-3 px-6 text-sm">
           Contact me
         </button>

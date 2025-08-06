@@ -13,7 +13,7 @@ function App() {
         <Navbar />
       </section>
 
-      <div className="px-16 lg:px-80">
+      <div className="px-6 lg:px-80 space-y-36">
         <HeroSection />
         <AboutSection />
         <ExperienceSection />

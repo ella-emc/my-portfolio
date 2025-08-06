@@ -4,7 +4,7 @@ import Badge from '../components/Badge';
 const ExperienceSection = () => {
   return (
     <section>
-      <h2 id="experience" className='font-space-grotesk text-primary text-center text-base lg:text-2xl mb-8 lg:mb-16'>Experience</h2>
+      <h2 id="experience" className='font-space-grotesk text-primary text-center text-lg lg:text-2xl my-12'>Experience</h2>
 
       <div className='flex flex-col gap-16'>
         {experiences.map((experience, index) => (
