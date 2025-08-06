@@ -14,35 +14,18 @@ function App() {
         <Navbar />
       </section>
 
-      <ScrollFadeIn className="py-[100px] px-16 lg:py-40 lg:px-80">
+      <div className="px-16 lg:px-80">
         <HeroSection />
-      </ScrollFadeIn>
-
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <AboutSection />
-      </ScrollFadeIn>
-
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <ExperienceSection />
-      </ScrollFadeIn>
-
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <ProjectsSection />
-      </ScrollFadeIn>
-
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <CommunityInvolvementsSection />
-      </ScrollFadeIn>
-
-      <ScrollFadeIn className="py-[100px] px-8 lg:py-40 lg:px-80">
         <ContactMeSection />
-      </ScrollFadeIn>
+      </div>
 
-      <ScrollFadeIn className="pb-36 px-8">
-        <footer>
-          <p className="text-sm text-center font-space-grotesk text-text-low-contrast">Copyright 2024 <br/>Ella Mae Cañaveral</p>
-        </footer>
-      </ScrollFadeIn>
+      <footer>
+        <p className="text-sm text-center font-space-grotesk text-text-low-contrast">Copyright 2024 <br/>Ella Mae Cañaveral</p>
+      </footer>
     </>
   )
 }

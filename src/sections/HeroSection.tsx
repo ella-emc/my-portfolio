@@ -2,7 +2,7 @@ import RotatingText from "../components/RotatingText";
 
 const HeroSection = () => {
   return (
-    <section className='h-screen flex flex-col items-center justify-center px-12 lg:px-56 gap-y-3 lg:gap-y-12'>
+    <section className='h-screen flex flex-col items-center justify-center gap-y-3 lg:gap-y-12'>
       <p className='text-accent font-space-grotesk text-base lg:text-lg'>👋 Hi, I'm Ella</p>
       <div className="flex flex-row flex-wrap justify-center items-center gap-x-6">
         <RotatingText
