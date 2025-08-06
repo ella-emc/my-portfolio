@@ -2,12 +2,12 @@ import RotatingText from "../components/RotatingText";
 
 const HeroSection = () => {
   return (
-    <section className='h-screen flex flex-col items-center justify-center gap-y-3 lg:gap-y-12'>
+    <section className='h-screen flex flex-col items-center justify-center gap-y-6 px-6 lg:gap-y-12'>
       <p className='text-accent font-space-grotesk text-base lg:text-lg'>👋 Hi, I'm Ella</p>
-      <div className="flex flex-row flex-wrap justify-center items-center gap-x-6">
+      <div className="flex flex-col md:flex-row md:flex-wrap justify-center items-center gap-x-6">
         <RotatingText
           texts={['Mobile', 'Web', 'Full Stack', 'AI']}
-          mainClassName="px-2 sm:px-2 md:px-3 bg-primary text-[42px] lg:text-6xl text-background font-space-grotesk font-bold overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
+          mainClassName="px-2 sm:px-2 md:px-3 bg-primary text-[42px] lg:text-6xl text-background font-sora font-bold overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
           staggerFrom={"last"}
           initial={{ y: "100%" }}
           animate={{ y: 0 }}
@@ -24,7 +24,7 @@ const HeroSection = () => {
             backgroundClip: "text",
             color: "transparent", 
           }}
-          className="text-[42px] lg:text-6xl font-space-grotesk font-bold text-text"
+          className="text-[42px] lg:text-6xl font-sora font-bold text-text"
         >
           Developer
         </p>
@@ -37,8 +37,8 @@ const HeroSection = () => {
         web and mobile applications. I'm actively involved in my university's tech startup community as a <span className="font-bold text-text">front-end developer</span>,
         and developer student community as a <span className="font-bold text-text">former campus lead</span>.
       </p>
-      <div className="card-wrapper flex items-center justify-center w-42 cosmic-glow">
-        <button className="card-content font-sora text-text rounded-2xl py-3 px-8 text-base">
+      <div className="card-wrapper flex items-center justify-center w-36 cosmic-glow">
+        <button className="card-content font-sora text-text rounded-2xl py-3 px-6 text-sm">
           Contact me
         </button>
       </div>
