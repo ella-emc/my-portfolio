@@ -22,7 +22,7 @@ function App() {
         <ContactMeSection />
       </div>
 
-      <footer>
+      <footer className="my-8 lg:my-16">
         <p className="text-sm text-center font-space-grotesk text-text-low-contrast">Copyright 2024 <br/>Ella Mae Cañaveral</p>
       </footer>
     </>
