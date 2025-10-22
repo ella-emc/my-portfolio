@@ -9,7 +9,7 @@ const ProjectsSection = () => {
       <div className="flex flex-row flex-wrap gap-y-16 gap-x-8">
         {projects.map((project, index) => (
           <div key={index} className='w-full md:w-[calc(50%-16px)] flex flex-col gap-y-6'>
-            <div className="relative max-w-full max-h-64 overflow-hidden rounded-2xl group">
+            <div className="relative max-w-full h-64 overflow-hidden rounded-2xl group">
               <a href={project.link} target="_blank">
                 <img
                   src={project.image_link}

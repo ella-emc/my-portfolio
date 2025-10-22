@@ -5,9 +5,9 @@ const CommunityInvolvementsSection = () => {
     <section>
       <h2 id="involvements" className='font-space-grotesk text-primary text-center text-base lg:text-2xl mb-8 lg:mb-16'>Community Involvements</h2>
     
-      <div className="grid grid-cols-12 gap-6">
+      <div className="flex flex-row flex-wrap gap-y-16 gap-x-8">
         {involvements.map((involvement, index) => (
-          <div key={index} className='col-span-6 flex flex-col gap-y-6'>
+          <div key={index} className='w-full md:w-[calc(50%-16px)] flex flex-col gap-y-6'>
             <div className="relative max-w-full max-h-64 overflow-hidden rounded-2xl group">
               <img
                 src={involvement.image_link}
@@ -17,7 +17,7 @@ const CommunityInvolvementsSection = () => {
             </div>
             <div className='space-y-4'>
               <p className="text-accent font-space-grotesk text-sm">{involvement.date ? involvement.date : involvement.start_date + " - " + involvement.end_date}</p>
-              <p className='text-text font-space-grotesk font-medium text-base lg:text-xl'>{involvement.role}, <span className="text-text-low-contrast">{involvement.institution}</span></p>
+              <p className='text-text font-space-grotesk font-medium text-base lg:text-xl'>{involvement.role}, <span className="text-text-low-contrast">{involvement.institution ? involvement.institution : involvement.event}</span></p>
               <p className='text-text-low-contrast font-space-grotesk text-base'>{involvement.description}</p>
             </div>
           </div>
