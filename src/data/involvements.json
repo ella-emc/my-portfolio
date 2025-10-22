@@ -6,6 +6,27 @@
     "image_link": "/",
     "role": "Lead & CEO",
     "institution": "Google Developer Groups on Campus Bicol University",
+    "event": null,
     "description": "Organized engaging tech-related community events on campus, reaching over 150 participants. Coordinated a tech project with the University Student Council for its flagship event"
+  },
+  {
+    "date": "Oct 2023",
+    "start_date": null,
+    "end_date": null,
+    "image_link": "/",
+    "role": "Guest Speaker",
+    "institution": null,
+    "event": "\"Towards Sustainability through Innovation: GDSC BU's mission\"",
+    "description": "Discussed how technology and student developers can contribute to the 17 Sustainable Development Goals of the United Nations"
+  },
+  {
+    "date":"Oct 2023",
+    "start_date": null,
+    "end_date": null,
+    "image_link": "/",
+    "role": "Co-panelist",
+    "institution": null,
+    "event": "\"Leading your chapter and building the succession plan\"",
+    "description": "Discussed personal experiences on leadership, leading a GDSC chapter, and finding the right GDSC chapter successor"
   }
 ]
